@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hesab {
+  margin-top: 2%;
+  margin-left: 35%;
+  width: 350px;
+  height: auto;
+  background-color: slategray;
+  border-radius: 5px;
+  padding: 10px;
+  #ekran {
+    padding: 1px 1px 1px 1px;
+    width: 330px;
+    height: 270px;
+    border: 2px solid;
+    background-color: #fff;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+    #ball {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: red;
+      position: relative;
+      height: 30px;
+      width: 10%;
+      border: 2px solid black;
+      border-radius: 100%;
+    }
+  }
+  #btns {
+    text-align: center;
+    button {
+      width: 70px;
+      height: 50px;
+      margin: 4px;
+      border-radius: 5px;
+      background-color: whitesmoke;
+      border: none;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+}
